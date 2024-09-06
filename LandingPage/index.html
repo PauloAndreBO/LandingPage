@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Simples</title>
+    <style>
+       #inicio {
+    background-image: url('https://cdn.gencraft.com/prod/user/721d9890-31a6-4bc5-bca9-0848826f9da4/f0d25d1f-0ce8-4607-b45e-735dd77cd314/image/image0_0.jpg?Expires=1725739364&Signature=DFQFPe5Zons0nOPV7vqeEl4ViuDKp18HrwZ6y7bq25ISSPyj45KzzNpe7DJw~uqnatoeU71POwdiIEGoDxyDNEAuzrcolhXU10ypnpfzRqxVWo91phSVUwVIk5KrGlIW7u8fEFyXWhxmoC4JjKcXoS7v4hFrw-B0A9K0VgMgPPbCa7iqUMsu1pA1WjvrEnRrqJsZjjpI3KxqAHKHa3Go8cobusqm3DGVesAdnspzQ1g6gP12ZKvHljHeETuIExbHWREUMVUtcj3Ggz6q8SPhUrYObiUsm2Xl0bADZbT1YscDF9O2bpp4civJ0HBS5qBme3n1ivo~zNsQXyw4uDee6Q__&Key-Pair-Id=K3RDDB1TZ8BHT8'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+    text-align: center; 
+    padding: 100px 20px;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+} body {
+    font-family: 'Roboto', sans-serif; 
+    line-height: 1.6; 
+    color: #333; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif; 
+    color: #222;
+    margin-bottom: 10px; 
+}
+
+p {
+    margin-bottom: 20px; 
+}
+
+a {
+    color: #006eff; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+a:hover {
+    color: #ff0000; 
+}
+
+#jogos .jogo-info {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px; 
+    color: #444; 
+}
+
+#jogos .jogo-info .descricao {
+    font-style: italic; 
+}
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scrollbar-width: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: #f0a500;
+        }
+
+        .section {
+            padding: 100px 20px;
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          
+ 
+        }
+
+        .hero {
+            background: #e0f7fa;
+        }
+
+        #sobre, #servicos {
+            background-color: #f0f0f0;
+        }
+
+        #contato {
+            background-color: #e0f7fa;
+        }
+
+        h1, h2 {
+            margin-bottom: 30px;
+        }
+
+        p {
+            max-width: 700px;
+            text-align: center;
+        }
+
+        footer {
+        
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: rgb(255, 255, 255);
+            position: relative;
+            bottom: 0;
+            width: 100%;
+
+            #contato form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto;
+
+    #jogos ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+#jogos ul li {
+    margin: 10px 0; 
+}
+
+#jogos ul li a {
+    text-decoration: none; 
+    color: #333;
+    font-weight: bold;
+}
+
+#jogos ul li a:hover {
+    color: #fafafa; 
+}
+
+}
+
+#contato label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contato input, #contato textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+#contato textarea {
+    resize: vertical;
+}
+
+#contato button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contato button:hover {
+    background-color: #555;
+}
+
+        }
+    </style>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@300;700&display=swap" rel="stylesheet">
+
+<body>
+
+    <header>
+        <script type="text/javascript">
+            window.onload = function(){
+            (function(d, script) {
+            script = d.createElement('script');
+            script.type = 'text/javascript';
+            script.async = true;
+            script.src = 'https://w.app/widget-v1/hzM3OQ.js';
+            d.getElementsByTagName('head')[0].appendChild(script);
+            }(document));
+            };
+            </script>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <section id="inicio" class="section hero">
+        <h1>Bem-vindo ao Tips Play</h1>
+        <h2>Aqui você encontra todos os jogos possíveis para seu lazer e aprendizado, porque jogar não é so apenas diversão.</h2>
+        <h3>Descubra mais rolando para baixo.</h3>
+       
+    </section>
+
+    <section id="sobre" class="section">
+        <h2>Sobre</h2>
+        <p>Existem inúmeros jogos de diferentes maneiras de jogar, mas os jogos não são apenas para diversão, também é possível aprender e ter conhecimento com alguns deles!
+        veja uma lista variadas de jogos com conhecimento imbutido em sua história.
+        </p>
+            <h3>Jogos </h3>
+            <ul>
+                <li><a href="https://store.steampowered.com/app/933110/Age_of_Empires_III_Definitive_Edition/" target="_blank">Age of Empires</a><p> Foca em diferentes períodos históricos e civilizações permitindo aos jogadores experimentar e aprender sobre a construção de impérios.</p></li>
+                <li><a href="https://store.steampowered.com/app/203160/Tomb_Raider/" target="_blank">Tomb Raider</a><p>Além de suas aventuras fictícias, a série explora várias culturas antigas e mitologias, muitas vezes misturando história e lenda.</p></li>
+                <li><a href="https://store.steampowered.com/app/587620/Okami_HD/" target="_blank">Okami</a><p>Baseado na mitologia japonesa, o jogo explora elementos da cultura e das crenças tradicionais do Japão.</p></li>
+                <li><a href="https://store.steampowered.com/app/1295660/Sid_Meiers_Civilization_VII/" target="_blank">Civilization</a><p>Envolve a construção e administração de civilizações desde a antiguidade até o futuro, com vários históricos.</p></li>
+                <li><a href="https://store.steampowered.com/app/812140/Assassins_Creed_Odyssey/" target="_blank">Assassin’s Creed</a><p>Cada jogo explora períodos históricos e eventos importantes, desde a Renascença italiana até a Revolução Americana.</p></li>
+            </ul>
+            <h4> Esses e muitos outros jogos possuem um história em fatos reais e incrivel para estar jogando agora mesmo!</h4>
+        </section>
+        
+    </section>
+
+    <section id="servicos" class="section">
+        <h2>Nossos Serviços</h2>
+        <p>Oferecemos uma lista enorme de jogos para você passar o tempo se distraindo em seu tempo livre, afinal de contas, não da pra viver a vida inteira sem um minuto de paz e lazer!</p>
+        <ul>
+            <li><a href="https://www.techtudo.com.br/noticias/2022/01/veja-os-50-melhores-jogos-online-gratis.ghtml">LISTA DE JOGOS</a> <p> Aqui está o link para a lista enorme de jogos feita pela TechTudo!</p></li>
+        </ul>
+    </section>
+
+    <section id="contato" class="section">
+        <h2>Fale Conosco</h2>
+        <H3>Quer saber mais sobre a indústria dos games?</H3>
+        <p>Entre em contato preenchendo o formulário abaixo!</p>
+        <form action="#" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required placeholder="Seu e-mail">
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required placeholder="Sua mensagem"></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+
+    <footer>
+        <nav>
+        <ul>
+            <p>Este é um serviço produzido pelo Aluno Paulo André Borges Oliveira.</p>
+        
+        <li><a href="https://www.instagram.com/paulo_andrebo">Instagram</a></li>
+        <li><a href="https://www.youtube.com/@peazera">Youtube </a></li>
+    </ul>
+</nav>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
